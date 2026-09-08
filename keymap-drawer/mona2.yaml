@@ -44,39 +44,39 @@ layers:
   - BACKSPACE
   - Sft+CAPS
   '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $
+  - <
+  - '>'
   - '['
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''''
+  - INT3
+  - Sft+8
+  - Sft+9
+  - Sft+7
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - ;
+  - Sft+6
   - ']'
+  - '#'
+  - Sft+2
+  - Sft+-
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
+  - F11
+  - F12
+  - F13
+  - F14
+  - '!'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '?'
   '2':
   - '!'
   - '@'
