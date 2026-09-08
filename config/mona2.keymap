@@ -11,27 +11,22 @@
 #define SCROLL 6
 
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <150>;
 };
 
 &lt {
-    quick-tap-ms = <300>;
-    flavor = "balanced";
+    flavor = "hold-preferred";
+    hold-while-undecided;
 };
 
 / {
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
-        };
-
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <0 1>;
         };
     };
 
