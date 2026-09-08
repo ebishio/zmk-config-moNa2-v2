@@ -62,11 +62,21 @@
     };
 };
 
+&zip_temp_layer {
+   require-prior-idle-ms = <100>; // キーボード操作後AML無効時間
+   excluded-positions = <
+       18 // J
+       19 // K
+       20 // L
+       33 // Shift
+   >;
+};
 
 // Overrides for the input listener node
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
+    input-processors = <&zip_temp_layer 5 500>;  // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー5を有効化（500ms）
 
     scroller1 {
         layers = <1>; // オートスクロールレイヤー（横スクロールのみ）
