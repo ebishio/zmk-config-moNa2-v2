@@ -37,90 +37,46 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT5, h: '3'}
-  - {t: SPACE, h: '1'}
-  - {t: INT4, h: '2'}
+  - {t: INT5, h: SHORTCUT}
+  - {t: SPACE, h: SYMBOL_FUNCTION}
+  - {t: INT4, h: ARROW_NUM}
   - DELETE
   - BACKSPACE
   - Sft+CAPS
-  '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  SYMBOL_FUNCTION:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
-  - '!'
-  - '@'
-  - '#'
   - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '-'
-  - _
-  - '`'
-  - '~'
-  - '"'
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '='
-  - +
+  - <
+  - '>'
+  - '['
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F11
-  - F12
+  - ''''
+  - INT3
+  - Sft+8
+  - Sft+9
+  - Sft+7
+  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
   - F9
   - F10
+  - ;
+  - Sft+6
+  - ']'
+  - '#'
+  - Sft+2
+  - Sft+-
   - {t: ▽, type: trans}
+  - F11
+  - F12
+  - F13
+  - F14
+  - '!'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,39 +85,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '3':
+  - '?'
+  ARROW_NUM:
   - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
-  - PRINTSCREEN
-  - Ctl+TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
+  - PAGE UP
   - UP ARROW
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - '='
+  - Sft+'
+  - '7'
+  - '8'
+  - '9'
+  - Sft+;
+  - ''''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  - Sft+3
   - {t: ▽, type: trans}
+  - /
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - ;
+  - HOME
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
+  - END
+  - Sft+5
+  - Sft+-
   - {t: ▽, type: trans}
+  - Sft+INT1
+  - '1'
+  - '2'
+  - '3'
+  - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DELETE
-  - PAGE UP
-  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,6 +128,47 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+=
+  SHORTCUT:
+  - Alt+TAB
+  - Alt+PRINTSCREEN
+  - Sft+Ctl+A
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+T
+  - Ctl+F4
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - Alt+LEFT ARROW
+  - Alt+RIGHT ARROW
+  - Ctl+Sft+TAB
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '&ind_con'
+  - '&ind_bat'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
