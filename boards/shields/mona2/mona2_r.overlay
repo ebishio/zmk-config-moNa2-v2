@@ -65,10 +65,10 @@
 &zip_temp_layer {
    require-prior-idle-ms = <100>; // キーボード操作後AML無効時間
    excluded-positions = <
-       18 // J
-       19 // K
-       20 // L
-       33 // Shift
+       17 // J
+       18 // K
+       19 // L
+       32 // Shift
    >;
 };
 
