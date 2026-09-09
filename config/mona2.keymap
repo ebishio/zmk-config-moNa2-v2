@@ -163,7 +163,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 JP_MHEN  &lt 1 SPACE  &lt 2 JP_HENK    &kp DELETE  &kp BACKSPACE                             &kp LS(JP_EISU)
             >;
 
-            sensor-bindings = <&ctrl_scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         layer_1 {
