@@ -139,10 +139,10 @@
             tap-ms = <20>;
         };
 
-        ctrl_scroll_up_down: mouse_wheel_up_down {
+        ctrl_scroll_up_down: ctrl_mouse_wheel_up_down  {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&ctrl_scroll_up>, <&ctrl_scroll_down>;
+            bindings = <&ctrl_scroll_down>, <&ctrl_scroll_up>;
 
             tap-ms = <20>;
         };
