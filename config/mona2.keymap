@@ -138,6 +138,14 @@
 
             tap-ms = <20>;
         };
+
+        ctrl_scroll_up_down: mouse_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&ctrl_scroll_up>, <&ctrl_scroll_down>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
