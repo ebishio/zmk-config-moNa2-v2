@@ -83,6 +83,34 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        // 左Ctrl ＋ 上スクロール
+        ctrl_scroll_up: ctrl_scroll_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <20>;
+
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &msc SCRL_UP>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+
+        // 左Ctrl ＋ 下スクロール
+        ctrl_scroll_down: ctrl_scroll_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <20>;
+
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &msc SCRL_DOWN>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
     };
 
     behaviors {
