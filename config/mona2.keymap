@@ -70,18 +70,23 @@
     combos {
         compatible = "zmk,combos";
 
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
+
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
 
         zkhk {
             bindings = <&kp JP_ZKHK>;
-            key-positions = <1 2>;
+            key-positions = <10 11>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
+        ins {
+            bindings = <&kp INS>;
             key-positions = <11 12>;
         };
     };
