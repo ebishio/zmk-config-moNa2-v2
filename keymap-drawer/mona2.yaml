@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - INS
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - '`'
-  - INS
+  - {t: ▽, type: trans}
   - N
   - M
   - ','
@@ -306,3 +306,5 @@ combos:
   k: ESCAPE
 - p: [10, 11]
   k: TAB
+- p: [22, 21]
+  k: A
