@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - '`'
+  - trans
   - {t: ▽, type: trans}
   - N
   - M
@@ -307,4 +307,4 @@ combos:
 - p: [10, 11]
   k: TAB
 - p: [22, 21]
-  k: A
+  k: '`'
