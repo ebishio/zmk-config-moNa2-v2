@@ -302,5 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [0, 1]
+- p: [1, 1, 0]
+  k: ESCAPE
+- p: [10, 11]
   k: TAB
