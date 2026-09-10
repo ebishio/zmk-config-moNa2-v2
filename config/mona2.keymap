@@ -70,9 +70,14 @@
     combos {
         compatible = "zmk,combos";
 
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 1 0>;
+        };
+
         tab {
             bindings = <&kp TAB>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
         };
     };
 
