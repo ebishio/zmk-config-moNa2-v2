@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - trans
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - N
   - M
