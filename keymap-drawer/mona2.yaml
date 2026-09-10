@@ -304,7 +304,7 @@ layers:
 combos:
 - p: [0, 1]
   k: ESCAPE
+- p: [1, 2]
+  k: '`'
 - p: [10, 11]
   k: TAB
-- p: [22, 21]
-  k: '`'
