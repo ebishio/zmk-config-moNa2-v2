@@ -75,14 +75,14 @@
             key-positions = <0 1>;
         };
 
+        zkhk {
+            bindings = <&kp JP_ZKHK>;
+            key-positions = <1 2>;
+        };
+
         tab {
             bindings = <&kp TAB>;
             key-positions = <10 11>;
-        };
-
-        zkhk {
-            bindings = <&kp JP_ZKHK>;
-            key-positions = <22 21>;
         };
     };
 
