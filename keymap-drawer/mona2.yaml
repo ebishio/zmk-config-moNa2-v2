@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ESCAPE
+  - {t: ▽, type: trans}
   - H
   - J
   - K
