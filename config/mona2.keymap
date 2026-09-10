@@ -72,7 +72,7 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 1 0>;
+            key-positions = <0 1>;
         };
 
         tab {
