@@ -310,3 +310,9 @@ combos:
   k: '`'
 - p: [11, 12]
   k: INS
+- p: [17, 18]
+  k: '&mkp LCLK'
+- p: [18, 19]
+  k: '&mkp RCLK'
+- p: [17, 19]
+  k: '&mkp MCLK'
