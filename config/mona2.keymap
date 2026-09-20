@@ -11,7 +11,6 @@
 #define SCROLL 6
 
 // OS設定を日本語キーボードのまま使用するための変換定義
-
 #define JP_ZKHK  GRAVE        // Zenkaku ↔ Hankaku ↔ Kanji (半角 ↔ 全角 ↔ 漢字)
 #define JP_MINUS MINUS        // -
 #define JP_CARET EQUAL        // ^
@@ -52,9 +51,7 @@
 #define JP_QMARK LS(JP_SLASH) // ?
 #define JP_UNDER LS(JP_BSLH)  // _
 
-// マウスクリック操作時AML動作定義
-
-// &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };
+// &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };  // マウスクリック操作時AML動作定義
 
 &mt {
     flavor = "tap-preferred";
@@ -115,7 +112,6 @@
         };
 
         // 左Ctrl ＋ 上スクロール
-
         ctrl_scroll_up: ctrl_scroll_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -131,7 +127,6 @@
         };
 
         // 左Ctrl ＋ 下スクロール
-
         ctrl_scroll_down: ctrl_scroll_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
