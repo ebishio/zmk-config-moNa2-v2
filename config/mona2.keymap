@@ -89,6 +89,21 @@
             bindings = <&kp INS>;
             key-positions = <11 12>;
         };
+
+        lclk {
+            bindings = <&mkp LCLK>;
+            key-positions = <17 18>;
+        };
+
+        rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <18 19>;
+        };
+
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <17 19>;
+        };
     };
 
     macros {
