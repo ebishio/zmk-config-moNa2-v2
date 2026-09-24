@@ -51,8 +51,6 @@
 #define JP_QMARK LS(JP_SLASH) // ?
 #define JP_UNDER LS(JP_BSLH)  // _
 
-// &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };  // マウスクリック操作時AML動作定義
-
 &mt {
     flavor = "tap-preferred";
     tapping-term-ms = <150>;
