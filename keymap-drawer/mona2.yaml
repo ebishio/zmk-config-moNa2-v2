@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - INS
+  - {t: ▽, type: trans}
   - H
   - J
   - K
