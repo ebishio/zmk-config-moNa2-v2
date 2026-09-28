@@ -11,6 +11,7 @@
 #define SCROLL 6
 
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_ZKHK  GRAVE        // Zenkaku ↔ Hankaku ↔ Kanji (半角 ↔ 全角 ↔ 漢字)
 #define JP_MINUS MINUS        // -
 #define JP_CARET EQUAL        // ^
@@ -77,12 +78,12 @@
 
         zkhk {
             bindings = <&kp JP_ZKHK>;
-            key-positions = <10 11>;
+            key-positions = <31 30>;
         };
 
         ins {
             bindings = <&kp INS>;
-            key-positions = <11 12>;
+            key-positions = <29 30>;
         };
 
         lclk {
@@ -110,6 +111,7 @@
         };
 
         // 左Ctrl ＋ 上スクロール
+
         ctrl_scroll_up: ctrl_scroll_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -125,6 +127,7 @@
         };
 
         // 左Ctrl ＋ 下スクロール
+
         ctrl_scroll_down: ctrl_scroll_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
