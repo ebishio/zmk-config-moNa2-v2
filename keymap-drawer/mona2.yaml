@@ -85,7 +85,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+=
+  - trans
   '2':
   - {t: ▽, type: trans}
   - $
@@ -147,9 +147,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - Alt+RIGHT ARROW
@@ -319,4 +319,4 @@ combos:
 - p: [7, 8]
   k: '-'
 - p: [9, 8]
-  k: '~'
+  k: Sft+=
