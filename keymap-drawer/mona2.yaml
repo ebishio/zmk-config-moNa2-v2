@@ -85,7 +85,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - trans
+  - {t: ▽, type: trans}
   '2':
   - {t: ▽, type: trans}
   - $
