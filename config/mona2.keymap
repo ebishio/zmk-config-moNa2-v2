@@ -100,6 +100,16 @@
             bindings = <&mkp MCLK>;
             key-positions = <17 19>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <7 8>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <9 8>;
+        };
     };
 
     macros {
