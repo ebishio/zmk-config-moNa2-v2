@@ -69,46 +69,55 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <0 1>;
+            layers = <0>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
-        };
-
-        zkhk {
-            bindings = <&kp JP_ZKHK>;
-            key-positions = <31 30>;
-        };
-
-        ins {
-            bindings = <&kp INS>;
-            key-positions = <29 30>;
-        };
-
-        lclk {
-            bindings = <&mkp LCLK>;
-            key-positions = <17 18>;
-        };
-
-        rclk {
-            bindings = <&mkp RCLK>;
-            key-positions = <18 19>;
-        };
-
-        mclk {
-            bindings = <&mkp MCLK>;
-            key-positions = <17 19>;
+            layers = <0>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         tilde {
             bindings = <&kp JP_TILDE>;
             key-positions = <9 8>;
+            layers = <0>;
+        };
+
+        ins {
+            bindings = <&kp INS>;
+            key-positions = <29 30>;
+            layers = <0>;
+        };
+
+        zkhk {
+            bindings = <&kp JP_ZKHK>;
+            key-positions = <31 30>;
+            layers = <0>;
+        };
+
+        lclk {
+            bindings = <&mkp LCLK>;
+            key-positions = <17 18>;
+            layers = <0>;
+        };
+
+        rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <17 19>;
+            layers = <0>;
         };
     };
 
