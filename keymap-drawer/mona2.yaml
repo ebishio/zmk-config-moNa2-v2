@@ -37,9 +37,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT5, h: '3'}
+  - {t: INT4, h: '3'}
   - {t: SPACE, h: '2'}
-  - {t: INT4, h: '1'}
+  - {t: INT5, h: '1'}
   - DELETE
   - BACKSPACE
   - Sft+CAPS
