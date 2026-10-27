@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - ENTER
+  - {t: ENTER, h: '5'}
   - Z
   - X
   - C
@@ -236,7 +236,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
