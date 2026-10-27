@@ -320,3 +320,12 @@ combos:
 - p: [31, 30]
   k: '`'
   l: [default]
+- p: [17, 18]
+  k: '&mkp LCLK'
+  l: [default]
+- p: [18, 19]
+  k: '&mkp RCLK'
+  l: [default]
+- p: [17, 19]
+  k: '&mkp MCLK'
+  l: [default]
