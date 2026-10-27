@@ -102,23 +102,23 @@
             layers = <0>;
         };
 
-        lclk {
-            bindings = <&mkp LCLK>;
-            key-positions = <17 18>;
-            layers = <0>;
-        };
+        //lclk {
+        //    bindings = <&mkp LCLK>;
+        //    key-positions = <17 18>;
+        //    layers = <0>;
+        //};
 
-        rclk {
-            bindings = <&mkp RCLK>;
-            key-positions = <18 19>;
-            layers = <0>;
-        };
+        //rclk {
+        //    bindings = <&mkp RCLK>;
+        //    key-positions = <18 19>;
+        //    layers = <0>;
+        //};
 
-        mclk {
-            bindings = <&mkp MCLK>;
-            key-positions = <17 19>;
-            layers = <0>;
-        };
+        //mclk {
+        //    bindings = <&mkp MCLK>;
+        //    key-positions = <17 19>;
+        //    layers = <0>;
+        //};
     };
 
     macros {
@@ -203,7 +203,7 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R          &kp T                                     &kp Y          &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F          &kp G                         &trans      &kp H          &kp J  &kp K      &kp L    &lt 5  ENTER
+&kp A      &kp S         &kp D         &kp F          &kp G                         &trans      &kp H          &kp J  &kp K      &kp L    &kp ENTER
 &kp Z      &kp X         &kp C         &kp V          &kp B        &trans           &trans      &kp N          &kp M  &kp COMMA  &kp DOT  &kp LEFT_SHIFT
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 JP_MHEN  &lt 2 SPACE  &lt 1 JP_HENK    &kp DELETE  &kp BACKSPACE                             &kp LS(JP_EISU)
             >;
@@ -231,10 +231,10 @@
 
         layer_3 {
             bindings = <
-&kp LA(TAB)         &kp LA(PRINTSCREEN)  &kp LS(LC(A))    &kp PRINTSCREEN    &trans                    &trans  &trans  &trans  &trans  &trans
-&kp LC(T)           &kp LC(F4)           &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(TAB))  &kp LC(TAB)        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans              &trans               &trans           &trans             &trans  &trans    &trans  &trans                          &trans
+&kp LA(TAB)         &kp LA(PRINTSCREEN)  &kp LS(LC(A))    &kp PRINTSCREEN    &trans                    &trans  &trans     &trans     &trans     &trans
+&kp LC(T)           &kp LC(F4)           &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans            &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
+&kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LC(LS(TAB))  &kp LC(TAB)        &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
+&trans              &trans               &trans           &trans             &trans  &trans    &trans  &trans                                   &trans
             >;
         };
 
@@ -249,10 +249,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                   &trans
             >;
         };
 
