@@ -102,23 +102,23 @@
             layers = <0>;
         };
 
-        //lclk {
-        //    bindings = <&mkp LCLK>;
-        //    key-positions = <17 18>;
-        //    layers = <0>;
-        //};
+        lclk {
+            bindings = <&mkp LCLK>;
+            key-positions = <17 18>;
+            layers = <0>;
+        };
 
-        //rclk {
-        //    bindings = <&mkp RCLK>;
-        //    key-positions = <18 19>;
-        //    layers = <0>;
-        //};
+        rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
 
-        //mclk {
-        //    bindings = <&mkp MCLK>;
-        //    key-positions = <17 19>;
-        //    layers = <0>;
-        //};
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <17 19>;
+            layers = <0>;
+        };
     };
 
     macros {
