@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: ENTER, h: '5'}
+  - ENTER
   - Z
   - X
   - C
@@ -147,9 +147,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - Alt+RIGHT ARROW
@@ -233,10 +233,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {type: held}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -319,13 +319,4 @@ combos:
   l: [default]
 - p: [31, 30]
   k: '`'
-  l: [default]
-- p: [17, 18]
-  k: '&mkp LCLK'
-  l: [default]
-- p: [18, 19]
-  k: '&mkp RCLK'
-  l: [default]
-- p: [17, 19]
-  k: '&mkp MCLK'
   l: [default]
